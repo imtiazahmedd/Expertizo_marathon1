@@ -11,7 +11,6 @@ class DaySelected extends Component {
         this.state={day:new Date()}
     }
 
-
     componentWillReceiveProps(props,state){
         console.log("state",state)
     }
